@@ -42,3 +42,13 @@ found  23 doubles: ./target/rls/debug/incremental/double_finder-1wi75gwof358j/s-
 [...]
 found 593/953 doubles
 ```
+
+## TODO
+
+- [ ] find better program name
+- [ ] cargo install commands
+- [x] traverse directories
+- [x] calculate sha256 of file contents
+- [ ] faster hashing algorithm
+- [x] put file in database
+- [x] output double files
