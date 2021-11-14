@@ -51,4 +51,4 @@ found 593/953 doubles
 - [x] calculate sha256 of file contents
 - [ ] faster hashing algorithm
 - [x] put file in database
-- [x] output double files
+- [x] output duplicate files
