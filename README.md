@@ -9,8 +9,7 @@ To install probably do something like
 ```sh
 git clone https://github.com/HiddyTiddy/double-finder
 cd double-finder
-cargo build --release
-ln -s $(pwd)/target/release/double-finder /usr/local/bin/double-finder
+cargo install --path .
 ```
 
 ## Usage
@@ -48,7 +47,7 @@ found 593/953 doubles
 ## TODO
 
 - [ ] find better program name
-- [ ] cargo install commands
+- [x] cargo install commands (wasn't that hard lol)
 - [x] traverse directories
 - [x] calculate sha256 of file contents
 - [ ] faster hashing algorithm
