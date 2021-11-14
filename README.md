@@ -53,3 +53,6 @@ found 593/953 doubles
 - [ ] faster hashing algorithm
 - [x] put file in database
 - [x] output duplicate files
+- [ ] ignore dirs
+- [ ] max depth?
+- [ ] command line args to specify hashing algorithm?
