@@ -7,6 +7,8 @@ Find duplicate files in a directory. Recursively traverses the directory and add
 To install probably do something like
 
 ```sh
+git clone https://github.com/HiddyTiddy/double-finder
+cd double-finder
 cargo build --release
 ln -s $(pwd)/target/release/double-finder /usr/local/bin/double-finder
 ```
