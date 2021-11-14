@@ -15,7 +15,7 @@ cargo install --path .
 ## Usage
 
 ```sh
-$ cargo run --release -q -- .
+$ double-finder .
 [...]
 found  23 doubles: ./target/rls/debug/incremental/double_finder-1wi75gwof358j/s-g4860fc93a-17d6thd.lock
                    ./target/rls/debug/incremental/double_finder-s5tc62vhs5yn/s-g4860f70pf-rxgn1y.lock
